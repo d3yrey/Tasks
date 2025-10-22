@@ -62,7 +62,7 @@ public class Arrays {
         //5
         int[] arr = {1, 2, 4, 5};
         int search = sc.nextInt();
-        boolean found= false;
+        boolean found= false; ///found yaratmagi ai dan meslehet aldim
 
         for (int i = 0; i < arr.length; i++) {
             if (search == arr[i]){
