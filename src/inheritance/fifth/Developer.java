@@ -1,0 +1,12 @@
+package inheritance.fifth;
+
+public class Developer extends Employee{
+    public Developer(String name, int salary) {
+        super(name, salary);
+    }
+
+    @Override
+    double calculateSalary() {
+        return super.calculateSalary();
+    }
+}
